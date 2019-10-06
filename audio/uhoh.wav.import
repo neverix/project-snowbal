@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/uhoh.wav-368372062a70748cefb3c50048a14830.sample"
+
+[deps]
+
+source_file="res://audio/uhoh.wav"
+dest_files=[ "res://.import/uhoh.wav-368372062a70748cefb3c50048a14830.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

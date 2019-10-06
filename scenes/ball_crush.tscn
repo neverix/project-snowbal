@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="ball_crush" type="CPUParticles2D"]
+amount = 16
+lifetime = 0.2
+emission_shape = 1
+emission_sphere_radius = 1.0
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 28.77
+color = Color( 0.764706, 0.839216, 0.858824, 1 )

@@ -1,0 +1,50 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="LineShape2D" id=13]
+
+[sub_resource type="SegmentShape2D" id=14]
+a = Vector2( 710, 230 )
+b = Vector2( 330, 370 )
+
+[sub_resource type="SegmentShape2D" id=15]
+a = Vector2( 710, 230 )
+b = Vector2( 800, 230 )
+
+[node name="snowballs" type="Node2D"]
+position = Vector2( 0, 20 )
+
+[node name="background" type="StaticBody2D" parent="."]
+editor/display_folded = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="background"]
+position = Vector2( 180, 370 )
+shape = SubResource( 13 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="background"]
+shape = SubResource( 14 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="background"]
+shape = SubResource( 15 )
+
+[node name="ColorRect" type="ColorRect" parent="background"]
+margin_top = 370.0
+margin_right = 800.0
+margin_bottom = 610.0
+color = Color( 0.764706, 0.839216, 0.858824, 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="background"]
+margin_left = 710.0
+margin_top = 230.0
+margin_right = 800.0
+margin_bottom = 370.0
+color = Color( 0.764706, 0.839216, 0.858824, 1 )
+
+[node name="ColorRect3" type="ColorRect" parent="background"]
+margin_left = 710.0
+margin_top = 230.0
+margin_right = 893.0
+margin_bottom = 642.0
+rect_rotation = 69.6818
+color = Color( 0.764706, 0.839216, 0.858824, 1 )
+
+[node name="Node2D" type="Node2D" parent="."]
